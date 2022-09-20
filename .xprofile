@@ -1,0 +1,6 @@
+setxkbmap en
+xrandr -s 1920x1080
+nitrogen --restore
+xrdb ${XDG_CONFIG_HOME:-$HOME/.config} & xrdbpid=$!
+picom -f &
+/* feh --no-fehbg --bg-scale /home/shwans/images/wallpapers/wallpapers/gruvbox/house-garden.png */
